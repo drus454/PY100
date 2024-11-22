@@ -82,7 +82,7 @@ def main():
 
         player = 'x' if player == 'o' else 'o'
         current_player = 'c' if current_player == 'h' else 'h'
-    if not is_win:
+    if not winner:
         print('Ничья!!!')
 
 if __name__ == '__main__':
